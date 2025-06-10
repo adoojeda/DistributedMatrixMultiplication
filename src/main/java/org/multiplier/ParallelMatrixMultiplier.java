@@ -29,7 +29,6 @@ public class ParallelMatrixMultiplier implements MatrixMultiplier {
             }));
         }
 
-        // Espera a que todos los hilos terminen
         for (Future<Void> future : futures) {
             try {
                 future.get();
