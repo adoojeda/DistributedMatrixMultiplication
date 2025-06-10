@@ -16,4 +16,4 @@ The goal is to analyze and benchmark performance in terms of **execution time**,
 ## Results
 
 Performance metrics were collected for matrix sizes from `128x128` to `4096x4096`.  
-You can find the full analysis and generated plots in DistributedMatrixMultiplication.pdf
+You can find the full analysis and generated plots in [DistributedMatrixMultiplication.pdf](./DistributedMatrixMultiplication.pdf).
